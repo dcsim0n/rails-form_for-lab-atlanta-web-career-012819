@@ -1,0 +1,7 @@
+<h1>Details for: <%= @student.to_s %></h1>
+<ul>
+    <li>First Name: <%= @student.first_name %></li>
+    <li>Last Name: <%= @student.last_name %></li>
+    <li>Last Updated:<%= @student.updated_at %></li>
+</ul>
+<a href="<%= edit_student_path %>">Edit</a>

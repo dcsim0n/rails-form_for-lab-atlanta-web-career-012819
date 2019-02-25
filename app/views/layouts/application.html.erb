@@ -7,7 +7,10 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+<nav>
+<a href="<%= students_path %>">Students Index</a>
+<a href="<%= school_classes_path %>">School Classes Index</a>
+</nav>
 <%= yield %>
 
 </body>
